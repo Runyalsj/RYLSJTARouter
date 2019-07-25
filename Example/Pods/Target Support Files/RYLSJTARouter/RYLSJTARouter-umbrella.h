@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "RYLSJTA_Router.h"
 
 FOUNDATION_EXPORT double RYLSJTARouterVersionNumber;
 FOUNDATION_EXPORT const unsigned char RYLSJTARouterVersionString[];

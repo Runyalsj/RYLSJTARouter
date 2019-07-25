@@ -22,7 +22,7 @@ pod 'RYLSJTARouter'
 
 ## Author
 
-runya_lsj@163.com, wangrunya@910app.com
+runyalsj@163.com, wangrunya@910app.com
 
 ## License
 

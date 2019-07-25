@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RYLSJTARouter'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RYLSJTARouter.'
+  s.summary          = 'RYLSJTARouter'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,19 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'RYLSJTARouter 基于target-action命令模式封装的路由，解决组件化中耦合'
 
-  s.homepage         = 'https://github.com/runya_lsj@163.com/RYLSJTARouter'
+  s.homepage         = 'https://github.com/Runyalsj'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'runya_lsj@163.com' => 'wangrunya@910app.com' }
-  s.source           = { :git => 'https://github.com/runya_lsj@163.com/RYLSJTARouter.git', :tag => s.version.to_s }
+  s.author           = { 'runyalsj@163.com' => 'wangrunya@910app.com' }
+  s.source           = { :git => 'https://github.com/Runyalsj/RYLSJTARouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'RYLSJTARouter/Classes/**/*'
   
   # s.resource_bundles = {

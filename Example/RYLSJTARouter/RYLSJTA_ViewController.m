@@ -7,7 +7,7 @@
 //
 
 #import "RYLSJTA_ViewController.h"
-
+#import "RYLSJTA_Router.h"
 @interface RYLSJTA_ViewController ()
 
 @end
@@ -18,6 +18,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [[[RYLSJTA_Router alloc] init] performTarget:@"Test" action:@"run" param:@{@"hello":@"world"}];
+    [[[RYLSJTA_Router alloc] init] performTarget:@"Test" action:@"run" param:nil];
 }
 
 - (void)didReceiveMemoryWarning
