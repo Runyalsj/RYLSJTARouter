@@ -1,0 +1,22 @@
+{
+  "name": "RYLSJTARouter",
+  "version": "0.1.0",
+  "summary": "A short description of RYLSJTARouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/runya_lsj@163.com/RYLSJTARouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "runya_lsj@163.com": "wangrunya@910app.com"
+  },
+  "source": {
+    "git": "https://github.com/runya_lsj@163.com/RYLSJTARouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RYLSJTARouter/Classes/**/*"
+}
